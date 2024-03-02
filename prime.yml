@@ -1,0 +1,11 @@
+appversion: v1
+kind: pod
+metadata:
+  name: prime
+  namespace: myprime
+spec:
+  containers:
+   - name: httpd
+     imagename: httpd:2.4.58
+  ports:
+   - containerport: 80
