@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: configMap
+meatadata:
+  name: dev-config
+data:
+  username: "dev"
+  pass: "1234"
+  port: "3306"
