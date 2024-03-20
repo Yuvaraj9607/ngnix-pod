@@ -1,8 +1,9 @@
 apiVersion: v1
 kind: configMap
-meatadata:
+metadata:
   name: dev-config
 data:
   username: "dev"
   pass: "1234"
   port: "3306"
+  # To create a database app as a pod
