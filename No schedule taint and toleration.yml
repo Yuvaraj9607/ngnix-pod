@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tomcatpod
+spec:
+  containers:
+  - name: tomcat
+    image: tomcat 10.1.23
+  tolerations:
+  - key: "specialnode"
+    operator: "Exists"
+    effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Node
+metadata:
+  name: node1
+spec:
+  taints:
+  - key: specialnode
+    value: critical
+    effect: NoSchedule
