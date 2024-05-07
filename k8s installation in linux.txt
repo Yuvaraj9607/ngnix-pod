@@ -30,6 +30,10 @@ export AWS_SECRET_ACCESS_KEY= IAM Secret accesskey
 
 # kops create cluster --zones us-east-1e ${NAME} (North virginia zone)
 
+Delete the cluster
+
+# kops delete cluster --name=yuvaraj.k8s.local --state=s3://kopsbucket11 --yes
+
 
 Installing Helm on Ubuntu
 ==========================
