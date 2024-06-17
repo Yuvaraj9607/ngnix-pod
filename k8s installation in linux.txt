@@ -26,7 +26,7 @@ export AWS_ACCESS_KEY_ID= IAM Accesskey
 export AWS_SECRET_ACCESS_KEY= IAM Secret accesskey
 
 # export NAME=yuvaraj.k8s.local
-# export KOPS_STATE_STORE=s3://kopsbucket11
+# export KOPS_STATE_STORE=s3://kopsbucket9607
 
 # kops create cluster --zones us-east-1e ${NAME} (North virginia zone)
 
